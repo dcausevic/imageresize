@@ -10,7 +10,7 @@ use Cake\Controller\Component;
  * 
  * Author: Dzenan Causevic
  * Date: April 23, 2015
- * Link: http://github.com/dcausevic/
+ * Link: https://github.com/dcausevic/imageresize
  *
  * This CakePHP helper was created based on code from
  * SimpleImage.php developed by Simon Travis
