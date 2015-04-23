@@ -1,0 +1,57 @@
+== README
+
+This is CakePHP component for image resizing
+
+==== System requirements
+
+* PHP
+
+* PHP GD library extension with support for jpeg and png images 
+
+* CakePHP 3.0+ project
+
+==== Installing component
+
+Place ImageresizeComponent.php to your CakePHP 3.0+ project under 'src/Controller/Components' directory
+
+==== Import component into controller
+
+* public $components = array('Imageresize')	
+
+==== Component usage
+
+* Load image
+
+  $this->Imageresize->load('/path/to/image')
+
+* Get image witdh
+
+  $this->Imageresize->getWidth()
+
+* Get image height 
+
+  $this->Imageresize->getHeight()
+
+* Resize to specified width (450px)
+
+  $this->Imageresize->resizeToWidth(450)
+
+* Resize to specified height (450px)
+
+  $this->Imageresize->resizeToHeight(450)
+
+* Resize both width and height to 450px by 450px
+
+  $this->Imageresize->resize(450,450)
+
+* Resize to 50% of its original width and height
+
+  $this->Imageresize->scale(50)
+
+* Save image
+
+  $this->Imageresize->save('/path/to/resized/image')
+
+* Output image on the fly without saving
+
+  $this->Imageresize->output()
