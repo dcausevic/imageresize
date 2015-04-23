@@ -16,7 +16,7 @@ Place ImageresizeComponent.php to your CakePHP 3.0+ project under 'src/Controlle
 
 ==== Import component into controller
 
-* public $components = array('Imageresize')	
+public $components = array('Imageresize')	
 
 ==== Component usage
 
